@@ -67,12 +67,13 @@ ul + li:nth-last-child(1) {
  * HEADER
  */
 
-header {
+.border {
 	background-color: #eee;
 	background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), 
 	linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
 	background-size: 60px 60px;
 	background-position: 0 0, 30px 30px;
+	min-height: 60px;
 }
 
 header img {
@@ -81,7 +82,7 @@ header img {
 }
 
 header h1 {
-	color: yellow;
+	color: #E10D19;
 	font-family: 'Roboto', sans-serif;
 	font-size: 4em;
 	font-weight: 900;
@@ -96,7 +97,7 @@ header h1 {
  */
 
 nav {
-	background-color: red;
+	background-color: #E10D19;
 	margin-bottom: 1em;
 }
 
@@ -119,7 +120,7 @@ nav li a {
 }
 
 nav li a:hover {
-	color: red;
+	color: #E10D19;
 }
 
 /*
